@@ -42,13 +42,12 @@
 }
 
 .todo-text {
-  /* タイトルと日付を縦に並べたい場合 */
   display: flex;
   flex-direction: column; 
 }
 
 .todo-dates {
   display: flex;
-  gap: 16px; /*[cite: 3] 項目同士の間隔 */
-  flex-wrap: wrap; /*[cite: 3] */
+  gap: 16px;
+  flex-wrap: wrap;
 }
